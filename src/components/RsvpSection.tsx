@@ -1,5 +1,21 @@
 import Reveal from "./Reveal";
 
+const rsvpSubject = encodeURIComponent("RSVP - Hononga Milon Charity Dinner 2026");
+const rsvpBody = encodeURIComponent(
+  [
+    "Kia ora Hononga Milon team,",
+    "",
+    "I'd like to RSVP for the 2026 charity dinner.",
+    "",
+    "Name:",
+    "Number of seats:",
+    "Phone number:",
+    "Any notes:",
+    "",
+    "Thanks!",
+  ].join("\n"),
+);
+
 export default function RsvpSection() {
   return (
     <section id="rsvp" className="mx-auto max-w-4xl px-6 py-20 sm:px-10 sm:py-28 lg:px-16">
@@ -28,7 +44,7 @@ export default function RsvpSection() {
         </p>
 
         <a
-          href="mailto:honongamilon@gmail.com?subject=RSVP%20-%20Hononga%20Milon%20Dinner"
+          href={`mailto:honongamilon@gmail.com?subject=${rsvpSubject}&body=${rsvpBody}`}
           className="mt-6 inline-block rounded-full border-2 border-white px-8 py-3.5 font-semibold text-white transition-colors hover:bg-white hover:text-maroon"
         >
           Email us to RSVP

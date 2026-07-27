@@ -30,7 +30,7 @@ export default function Hero() {
         </p>
 
         <div className="mt-8 flex flex-wrap gap-8">
-          <Fact label="Date" value="Sat, 12 Sep 2025" />
+          <Fact label="Date" value="Sat, 12 Sep 2026" />
           <Fact label="Time" value="6:00 pm" />
           <Fact label="Venue" value="Karori Baptist Church" />
         </div>

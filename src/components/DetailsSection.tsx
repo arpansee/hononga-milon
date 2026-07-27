@@ -13,7 +13,7 @@ export default function DetailsSection() {
       <div className="mt-8 grid gap-6 sm:grid-cols-3">
         <Reveal delay={0.05} className="rounded-2xl border border-line bg-white p-7">
           <h3 className="mb-2 text-lg font-bold text-terracotta">When &amp; Where</h3>
-          <p className="text-muted">Saturday, 12 September 2025 &middot; 6:00 pm</p>
+          <p className="text-muted">Saturday, 12 September 2026 &middot; 6:00 pm</p>
           <p className="text-muted">
             Karori Baptist Church
             <br />
