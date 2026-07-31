@@ -42,7 +42,7 @@ export default function ThemePage() {
             to="/#rsvp"
             className="inline-block rounded-full bg-maroon px-8 py-3.5 font-semibold text-white shadow-lg shadow-maroon/30 transition-all hover:-translate-y-0.5 hover:bg-terracotta"
           >
-            RSVP by 15 August
+            RSVP closed
           </Link>
         </Reveal>
       </main>

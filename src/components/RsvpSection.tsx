@@ -26,11 +26,11 @@ export default function RsvpSection() {
           RSVP &amp; Support
         </p>
         <h2 className="text-3xl font-bold text-white sm:text-4xl">
-          Reserve your seat by 15 August
+          RSVP registrations are now closed
         </h2>
         <p className="mx-auto mt-4 max-w-xl text-white/90">
-          Reply to our email to confirm your seats, and make payment to the account below. Seats
-          are limited to 50 &mdash; we'll keep you posted as they fill up.
+          Thank you for your support. Registration for the dinner is now closed, and our seats
+          have been allocated.
         </p>
 
         <div className="mx-auto my-6 inline-flex flex-col gap-1 rounded-2xl border border-white/35 bg-white/10 px-8 py-4">
@@ -47,7 +47,7 @@ export default function RsvpSection() {
           href={`mailto:honongamilon@gmail.com?subject=${rsvpSubject}&body=${rsvpBody}`}
           className="mt-6 inline-block rounded-full border-2 border-white px-8 py-3.5 font-semibold text-white transition-colors hover:bg-white hover:text-maroon"
         >
-          Email us to RSVP
+          Contact us with enquiries
         </a>
       </Reveal>
     </section>
